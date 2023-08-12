@@ -1,0 +1,93 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: .80em;
+    background-color: #F5F5F5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: rgb(57, 57, 57);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #595959;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #767676;
+}
+
+.sidebar {
+    background-color: rgb(50, 53, 68);
+}
+
+.links-area {
+    overflow: auto;
+
+}
+
+.sidebar .links-area::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.sidebar .links-area::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle */
+.sidebar .links-area::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 25px;
+}
+
+.logo-area {
+    position: sticky;
+}
+
+.links-area ul i {
+    width: 18px;
+    height: 18px;
+    text-align: center;
+}
+
+.sidebar ul a {
+    color: #cccccc !important;
+}
+
+.active {
+    background: rgb(78, 81, 97) !important;
+}
+
+.sidebar .btn-dark {
+    background-color: transparent !important;
+    border: 1px solid #cccccc;
+}
+
+.sidebar .btn-dark:hover {
+    background-color: rgb(78, 81, 97) !important;
+    border: 1px solid #fff;
+}
+
+.sidebar ul a:hover {
+    background: rgb(78, 81, 97) !important;
+}
+
+.sidebar .card {
+    border: 0 !important;
+    color: #cccccc !important;
+    background: transparent !important;
+
+}
+
+.sidebar .card-body {
+    border-radius: 8px;
+}
