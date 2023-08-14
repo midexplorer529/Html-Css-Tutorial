@@ -96,14 +96,32 @@ body {
     padding: 0;
 }
 
+.four-cards-area .card {
+    overflow: hidden;
+}
+
 .four-cards-area a {
     font-weight: 900;
     color: white;
     text-decoration: none;
 }
 
-.four-cards-area a:hover {
+.four-cards-area .card:hover {
+    transition: all .3s ease;
+}
+
+.four-cards-area .card:hover::after {
+    transition: all 0.5s ease-out;
+}
+
+.four-cards-area .card:hover img {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover .card-info-text-area span {
     text-decoration: underline;
+    transition: all .3s ease;
 }
 
 .four-cards-container {
