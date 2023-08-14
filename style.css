@@ -96,7 +96,26 @@ body {
     padding: 0;
 }
 
-.card-info-area {
+.four-cards-area a {
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
+}
+
+.four-cards-area a:hover {
+    text-decoration: underline;
+}
+
+.four-cards-container {
+    margin: 35px 0;
+}
+
+.four-cards-area {
+    padding: 0 50px;
+    margin: 0 50px;
+}
+
+#card1 {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -104,12 +123,26 @@ body {
     padding: 12px;
 }
 
-main .card-body a {
-    font-weight: 900;
-    color: white;
-    text-decoration: none;
+#card2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 136, 255, 0.7);
+    padding: 12px;
 }
 
-main .card-body a:hover {
-    text-decoration: underline;
+#card3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 170, 255, 0.7);
+    padding: 12px;
+}
+
+#card4 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(9, 107, 0, 0.7);
+    padding: 12px;
 }
