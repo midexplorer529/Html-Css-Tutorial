@@ -104,12 +104,12 @@ body {
     padding: 12px;
 }
 
-.card-body a {
+main .card-body a {
     font-weight: 900;
     color: white;
     text-decoration: none;
 }
 
-.card-body a:hover {
+main .card-body a:hover {
     text-decoration: underline;
 }
