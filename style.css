@@ -98,6 +98,7 @@ body {
 
 .four-cards-area .card {
     overflow: hidden;
+    transition: all .3s ease;
 }
 
 .four-cards-area a {
@@ -106,22 +107,17 @@ body {
     text-decoration: none;
 }
 
-.four-cards-area .card:hover {
-    transition: all .3s ease;
-}
-
-.four-cards-area .card:hover::after {
-    transition: all 0.5s ease-out;
-}
-
 .four-cards-area .card:hover img {
     transform: scale(1.05);
     transition: all 0.5s ease-in-out;
 }
 
+.four-cards-area .card img {
+    transition: all 0.5s ease-in-out;
+}
+
 .card:hover .card-info-text-area span {
     text-decoration: underline;
-    transition: all .3s ease;
 }
 
 .four-cards-container {
