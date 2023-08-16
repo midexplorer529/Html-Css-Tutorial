@@ -92,6 +92,11 @@ body {
     border-radius: 8px;
 }
 
+.main-section {
+    margin: 0 50px;
+    padding: 0 50px;
+}
+
 .card-body {
     padding: 0;
 }
@@ -124,10 +129,10 @@ body {
     margin: 35px 0;
 }
 
-.four-cards-area {
+/* .four-cards-area {
     padding: 0 50px;
     margin: 0 50px;
-}
+} */
 
 #card1 {
     position: absolute;
@@ -159,4 +164,22 @@ body {
     width: 100%;
     background: rgba(9, 107, 0, 0.7);
     padding: 12px;
+}
+
+/* .box-wrapper {
+    margin: 0 50px;
+    padding: 0 50px;
+} */
+
+
+
+/* .text-container {
+    margin: 0 50px;
+    padding: 0 50px;
+} */
+
+.box-wrapper a {
+    font-weight: 900;
+    color: white;
+    text-decoration: none;
 }
