@@ -182,3 +182,7 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.box-wrapper .card {
+    border: none !important;
+}
